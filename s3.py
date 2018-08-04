@@ -6,7 +6,7 @@ import botocore
 
 class S3Handler:
 
-    def __init__(self, bn, r='us-east-1', p='default', prefix=''):
+    def __init__(self, bn, r='', p='default', prefix=''):
         '''
         Class to handle s3 interaction
         bn = bucket name
