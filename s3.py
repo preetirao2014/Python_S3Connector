@@ -11,7 +11,7 @@ class S3Handler:
         Class to handle s3 interaction
         bn = bucket name
         r = region
-        p = profile to pull for .aws config deployed by ansibile vault
+        p = profile to pull from .aws config
         '''
         # TODO add boto profiles support for new creds method
         logging.getLogger('boto3').setLevel(logging.WARN)
